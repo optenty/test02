@@ -1,0 +1,261 @@
+/*BODY*/
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ff4161;
+    text-align: center;
+
+
+}
+
+#title, #features, .carousel-inner, #press, #cta{
+    padding: 3rem 15rem 4rem;
+}
+#title{
+    padding-bottom: 0;
+}
+#title{
+    background-color: #ff4161;
+    height: 40rem;
+
+
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+
+}
+
+
+
+.maintittle{
+    margin-bottom: 0;
+}
+
+
+/*btn*/
+.btn-dark{
+    background-color: #2E2E2E;
+}
+
+.btn{
+margin: 2rem 0;
+}
+
+
+
+/*NAV*/
+
+#navbarSupportedContent{
+    justify-content: flex-end;
+}
+
+.container-fluid{
+    margin: 0;
+    padding: 0 0 3rem ;
+}
+
+
+
+.itemsnav{
+    font-size: 1.2rem;
+}
+.nav-item{
+    margin: 0 0 0 2rem;
+}
+.navbar{
+    font-weight: 300;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.navbar-brand{
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+/*Phone img*/
+
+.phoneimg{
+    display: flex;
+    justify-content: center;
+}
+
+.phoneimg img{
+    width: 20rem;
+    height: 40rem;
+    transform: rotate(20deg);
+    margin: 1.2rem 0;
+}
+
+
+
+/*FEATURES*/
+
+#features{
+    text-align: center;
+    margin: auto;
+    background-color: #fff;
+    display: flex;
+    position: relative;
+}
+
+.featureicon{
+    font-size: 4rem;
+    color: #ef8172;
+    padding-bottom: 1rem;
+}
+
+#features p{
+    color: #8f8f8f;
+}
+
+#features h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-bottom: 0.25rem;
+}
+
+#features div{
+    padding: 2rem 2rem;
+}
+
+.featureicon:hover {
+    color: #C85A4B;
+}
+
+/*TESTIMONIALS*/
+
+#testimonials{
+    text-align: center;
+    color: white;
+}
+
+.testimonial-text{
+    padding: 2rem 3rem;
+    font-weight: 600;
+
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 0 2rem;
+}
+
+#testimonials em{
+    font-size: 0.8rem;
+}
+
+/* PRESS */
+#press{
+    padding: 2rem 0 6rem;
+}
+#press img{
+    text-align: center;
+    margin: 0 2rem;
+    width: 15%;
+
+}
+
+/*PRICING*/
+
+#pricing{
+    background-color: #fff;
+    padding: 3rem 13rem;
+}
+
+#pricing p{
+    color: #8f8f8f;
+}
+
+.pricingbox{
+    padding: 2rem 0;
+    line-height: 2;
+}
+
+.containercards{
+    height: 12rem;
+}
+
+.fathercard{
+    padding: 2rem;
+}
+
+
+/* CTA */
+
+#cta{
+    padding: 4rem;
+}
+
+#cta h2{
+    color: white;
+    font-size: 2.5rem;
+    padding: 2rem 0 1rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+#cta button{
+    margin: 1.5rem 1rem 1rem;
+    font-size: 1.5rem;
+
+}
+
+/*FOOTER*/
+
+#footer{
+    background-color: #804350;
+    margin: 0;
+    padding: 2rem;
+    color: #fff;
+}
+
+.footericon{
+    font-size: 1.2rem;
+    margin:0 0.5rem;
+}
+.footericon i{
+    margin: 0 1rem;
+}
+
+
+#footer p{
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+/*MEDIA QUERY*/
+/*aquí básicamente hago arreglos en la sección #title para que se quede con una mejor transición en este punto*/
+
+
+@media (max-width: 1250px) and (min-width: 990px){
+
+    #title h1{
+        font-size: 2rem;
+    }
+    .phoneimg img{
+        width: 15rem;
+        height: 30rem;
+
+    }
+}
+
+@media (max-width: 990px) {
+
+    #title{
+        height: auto;
+    }
+
+    .phoneimg img{
+        transform: rotateX(0);
+        margin-top: 3rem;
+    }
+
+
+
+}
