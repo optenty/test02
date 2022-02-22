@@ -156,8 +156,8 @@ margin: 2rem 0;
 }
 #press img{
     text-align: center;
-    margin: 0 2rem;
-    width: 15%;
+    margin:  4rem 3rem;
+    width: 15rem;
 
 }
 
@@ -235,6 +235,8 @@ margin: 2rem 0;
 
 @media (max-width: 1250px) and (min-width: 990px){
 
+
+
     #title h1{
         font-size: 2rem;
     }
@@ -247,13 +249,45 @@ margin: 2rem 0;
 
 @media (max-width: 990px) {
 
+    html{
+        font-size: 32px;
+    }
+
+    #title, #features, .carousel-inner, #press, #cta, #pricing{
+        padding: 3rem 3rem 4rem;
+    }
+
     #title{
         height: auto;
+    }
+
+    #title h1{
+        font-size: 3rem;
+    }
+
+    .btn{
+        margin: 2rem 1rem;
     }
 
     .phoneimg img{
         transform: rotateX(0);
         margin-top: 3rem;
+    }
+
+    #press img{
+        margin: 1rem 0.5rem;
+        width: 10rem;
+    }
+
+    .fathercard{
+        padding: 0;
+        margin: 0;
+    }
+
+    .card{
+        padding: 0;
+        margin: 0;
+
     }
 
 
